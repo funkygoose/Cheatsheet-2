@@ -32,7 +32,7 @@ a:active{
     color: green;
 }
 a:visited{
-    color: black;
+    
 }
 
 .container{
@@ -40,6 +40,23 @@ a:visited{
     margin: auto;
 }
 
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    /*submits button under the message box*/
+}
+
+.clr{
+    clear-both;
+    /*clears any floats above it*/
+}
+
+.button:hover{
+    background: red;
+    color: #fff;
+}
 .box-1{
     background-color: #333;
     color: #fff;
@@ -123,12 +140,15 @@ a:visited{
     width: 100%;
 }
 
-.my-form input[type="submit"]{
-    background-color: #333;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
 }
+
+
 
 
 
