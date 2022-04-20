@@ -50,7 +50,6 @@ a:visited{
 
 .clr{
     clear-both;
-    /*clears any floats above it*/
 }
 
 .button:hover{
@@ -65,8 +64,10 @@ a:visited{
     border-left: 5px red solid;
     border-top: 5px red solid;
     border-bottom: 5px red solid;
+    /*same as above*/
     border-bottom-width: 10px;
     border-top-style: dotted;
+    border-width: 3px;
     border: 5px red solid;
 
     padding-top: 20px;
@@ -148,7 +149,42 @@ a:visited{
     box-sizing: border-box;
 }
 
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
 
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 40px;
+
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
 
 
 
