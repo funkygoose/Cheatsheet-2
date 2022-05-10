@@ -1,0 +1,22 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: Arial, helvetica, san-serif;
+	font-size: 16px;
+	line-height: 1.6eml;
+	margin: 0;
+
+}
+
+/*hello*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-header{
+	background-color: coral;
+	color: #fff;
+	
+}
